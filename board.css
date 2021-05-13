@@ -27,3 +27,6 @@ nav ul li a:visited{color:#000000;}
 nav ul li a:hover {font-weight:bold;}
 #board {font-weight:bold;}
 			
+nav:nth-of-type(2) {margin:20px 30px 0;
+					border:1px solid green;}
+nav:nth-of-type(2) ul li {font-size:16px;}

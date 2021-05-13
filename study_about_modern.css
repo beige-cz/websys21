@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+header {text-align:center;
+		margin:50px 30px 0;	
+		overflow:hidden;
+		height:90px;}
+header h1 {position:absolute; left:345px; right:345px;
+		   float:left;}
+header a {text-decoration:none;
+		  color:#000000;}
+header a:visited {color:#000000;} /*방문해도 색깔 안 변하게*/
+header>a {float:right;
+		  margin-right:10px;
+		  margin-top:40px;}
+
+
+nav ul {text-align:center;
+		margin-top:20px;
+		padding-left:120px;}
+nav ul li {display:inline-block;
+		   list-style:none;
+		   margin-right:100px;
+		   font-size:20px;}
+nav ul li a {text-decoration:none;
+			 color:#000000;}
+nav ul li a:visited{color:#000000;}
+nav ul li a:hover {font-weight:bold;}
+#study_how {font-weight:bold;}
+#aboutStudy {font-weight:bold;}
+
+
+section:nth-of-type(1) {margin:20px 30px 0;
+		 				border:1px solid green;
+		 				height:350px;
+		 				background-color:#ebf2ed;}		 
+section nav ul li {font-size:16px;}					
+section nav ul li #aboutStudy {text-decoration:underline;}
+section div {border:1px dotted black;
+			 text-align:center;
+			 width:1000px; height:250px;
+			 margin:0px 200px;}
+section nav:nth-of-type(2) ul {height:26px;
+							   position:relative; bottom:4px;
+							   background-color:white;}
+section nav:nth-of-type(2) ul li {margin-top:3px;}
+#modern {font-weight:bold;}
+
+section:nth-of-type(2) {margin:20px 30px 0;
+						border:1px solid grey;
+						height:500px;}
+section h1 {text-align:center;
+			font-size:24px;}
+						
