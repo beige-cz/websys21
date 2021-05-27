@@ -57,10 +57,10 @@ section h1 {text-align:center;
 			
 section article {border:1px solid grey;
 				margin:40px 50px;}
-section h2{font-size:21px;
+section article h2{font-size:21px;
 		   font-weight:630;
 		   display:inline;}
-section p {font-size:17px;
+section article p {font-size:17px;
 		   font-weight:500;}
 				
 
@@ -101,4 +101,6 @@ section #schola img {position:absolute;
 section #schola #aquinas {position:absolute;
 						  top:180px; left:405px;
 						  line-height:31px;}
+
+section>p {text-align:center;}
 													
