@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>로그인/회원가입</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="안송전, 오화령">
+	<link rel="stylesheet" type="text/css" href="join.css">
+</head>
+<body>
+	<div>
+		<div> JOIN </div>
+		<input id="id" type="text" value="아이디"> <br>
+		<input id="pw" type="password" value="비밀번호"> <br> 
+		
+		<button id="submit" onclick="join()"> SUBMIT </button> <br>
+		
+	</div>
+	
+	<script>
+		var id = document.getElementById("id");
+		var pw = document.getElementById("pw");
+	
+		function join(){
+			if(!window.sessionStorage){
+				alert("세션 스토리지를 지원하지 않습니다.");
+				return;
+			}
+			
+			var getPW = sessionStorage.getItem(id.value);
+			if(getPW){
+				alert("이미 등록된 아이디입니다.");
+				id.value = "아이디";
+				pw.value = "비밀번호";
+				return;
+			}
+				
+			sessionStorage.setItem(id.value, pw.value);
+			alert("회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.");
+			location.href="login.html";
+			
+			id.value = "";
+			pw.value = "";			
+		}
+	</script>
+	
+</body>
+</html>
