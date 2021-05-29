@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>로그인/회원가입</title>
+	<title>로그인/회원가입</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="안송전, 오화령">
+	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
-
-
-
+	<div>
+		<div> LOGIN </div>
+		<input id="id" type="text" value="아이디"> <br>
+		<input id="pw" type="password" value="비밀번호"> <br> 
+		
+		<button id="login" onclick="login()"> LOGIN </button> <br>
+		<button onclick="location.href='join.html'"> JOIN US </button>
+	</div>
+	
+	<script>
+		var id = document.getElementById("id");
+		var pw = document.getElementById("pw");
+		
+		function login(){
+			var getPW = sessionStorage.getItem(id.value);
+			if(pw.value == getPW){
+				alert(id.value + "님 방문을 환영합니다!");
+				location.href="index.html";
+			}
+			else{
+				alert("아이디 또는 비밀번호가 일치하지 않습니다.");
+			}
+		}
+		
+	</script>
+	
 </body>
 </html>
