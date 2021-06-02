@@ -26,18 +26,27 @@ nav ul li a {text-decoration:none;
 nav ul li a:visited{color:#000000;}
 nav ul li a:hover {font-weight:bold;}
 #study_how {font-weight:bold;}
-#howToStudy {font-weight:bold;}
+#howToStudy {font-weight:bold;
+			text-decoration:underline;}
 
 
-section {margin:20px 30px 0;
+nav:nth-of-type(2) {margin:20px 30px 0;
 		 border:1px solid green;
-		 height:450px;
 		 background-color:#ebf2ed;}
-section nav ul li {font-size:16px;}					
-section nav ul li #howToStudy {text-decoration:underline;}
+nav:nth-of-type(2) ul li {font-size:16px;}
 
-			
-			
+section article {margin-top:50px;
+					height:130px;
+					margin:30px 30px 0;
+					border:1px solid grey;
+					background-color:#F0F0F0;}			
+section article div {font-size:18px;
+					font-weight:420;
+					line-height:40px;
+					width:800px;
+					text-align:center;
+					margin:26px auto;
+					}			
 			
 			
 			
