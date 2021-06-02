@@ -43,9 +43,10 @@ section p {line-height:25px;}
 			
 section table {margin:0 auto;
 				width:80%;}
-section table .t_no {width:3%;}
-section table .t_title {width:30%;}
-section table .t_content {width:50%;}
+
+section table .t_no {width:10%;}
+section table .t_title {width:35%;}
+section table .t_content {width:47%;}
 section table .t_now {width:8%;}
 section table a {text-decoration:none;
 				color:black;}

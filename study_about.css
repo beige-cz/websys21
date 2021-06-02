@@ -26,7 +26,8 @@ nav ul li a {text-decoration:none;
 nav ul li a:visited{color:#000000;}
 nav ul li a:hover {font-weight:bold;}
 #study_how {font-weight:bold;}
-#aboutStudy {font-weight:bold;}
+#aboutStudy {font-weight:bold;
+			text-decoration:underline;}
 
 
 section:nth-of-type(1) {margin:20px 30px 0;
@@ -34,7 +35,6 @@ section:nth-of-type(1) {margin:20px 30px 0;
 		 				height:350px;
 		 				background-color:#ebf2ed;}		 
 section nav ul li {font-size:16px;}					
-section nav ul li #aboutStudy {text-decoration:underline;}
 section div {border:1px dotted black;
 			 text-align:center;
 			 height:250px;
