@@ -26,13 +26,65 @@
 	
 	<nav>
 		<ul>
-			<li> 오프라인 파티원 </li>
-			<li> 공지사항 </li>
-			<li> Q&A </li>
-			<li> 건의 메일 </li>
+			<li><a href="board.html" id="offline"> 오프라인 스터디 모집 </a></li>
+			<li><a href="qna.html" id="qna"> 공지사항/Q&A </a></li>
 		</ul>
 	</nav>
+	
+	<section>
+		<h3> 오프라인 스터디 모집 게시판 </h3>
+		<p> 오프라인으로 함께 공부할 스터디원을 찾아보세요! <br>
+		추상적이고 어렵게 느껴지는 개념이 많은 철학, 다른 사람들과 함께 의견을 나누며 공부하면 조금 더 쉬워질지도 몰라요! <br>
+		희망하는 요일과 시간을 선택해 어떤 주제를 같이 공부하고 싶은지 글을 작성해주세요.
+		마음 맞는 스터디원이 나타난다면 함께 더 즐거운 철학 공부가 가능하겠죠?! </p>
+		<hr>
+		
+		
+		<table>
+			<tr>
+				<td class="t_no"><strong>번호</strong></td>
+				<td class="t_title"> <strong>제목</strong> </td>
+				<td class="t_content"> <strong>내용</strong> </td>
+				<td class="t_day"> <strong>요일</strong> </td>
+				<td class="t_time"> <strong>시간</strong> </td>
+				<td class="t_now"> <strong>작성일자</strong> </td>
+			</tr>
+			<tr>
+				<td>  </td>
+				<td>  </td>
+				<td>  </td>
+			</tr>
+	
+		<script>
+			if(window.localStorage){
+				document.write("<table>");
+				
+				
+				var j = 0;
+				
+				for(i=0;i<localStorage.length;i++){
+					var key = localStorage.key(i);
+					var val = localStorage.getItem(key);
+					var arr_val = JSON.parse(val);
+					
+					if(arr_val.length == 4){
+						document.write("<tr>");
+						document.write("<td class='t_no'>" + (j+1) + "</td>");
+						document.write("<td class='t_title'>" + key + "</td>");
+						document.write("<td class='t_content'>" + arr_val[0] + "</td>");
+						document.write("<td class='t_day'>" + arr_val[1] + "</td>");
+						document.write("<td class='t_time'>" + arr_val[2] + "</td>");
+						document.write("<td class='t_now'>" + arr_val[3] + "</td>");
+						document.write("</tr>");
+						j = j + 1;
+					}
+				}
+				document.write("</table>");
+			}
+		</script>
+	
+		<button onclick="location.href='board_input.html'"> 글쓰기 </button>
+	</section>
 
 </body>
-
 </html>

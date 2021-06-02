@@ -37,20 +37,12 @@ nav:nth-of-type(2) ul li {font-size:16px;}
 
 section {margin:0 40px;
 		text-align:center;}
-section h3 {margin-top:40px;
+section h3 {text-align:center;
+			margin-top:40px;
 			font-size:25px;}
-section p {line-height:25px;}
-			
-section table {margin:0 auto;
-				width:80%;}
-section table .t_no {width:3%;}
-section table .t_title {width:30%;}
-section table .t_content {width:50%;}
-section table .t_day {width:5%;}
-section table .t_time {width:5%;}
-section table .t_now {width:8%;}
-section table a {text-decoration:none;
-				color:black;}
-section button {margin-top:40px;
-				width:70px; height:40px;
-				font-size:15px;}
+section div:nth-of-type(1) {width:100%;}
+section #title {height:30px;}
+section div:nth-of-type(2) {margin-top:10px;}
+section div:nth-of-type(3) {margin-top:20px;}
+section input[type=submit] {margin-top:10px;}
+section #content {width:800px;}
