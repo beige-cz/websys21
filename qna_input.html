@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Board</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="안송전, 오화령">
+	<link rel="stylesheet" type="text/css" href="qna_input.css">
+</head>
+
+<body>
+	<header>
+		<h1><a href="index.html"> 로고 </a></h1>
+		<a href="#"> 로그인/회원가입 </a>
+	</header>
+
+	<nav>
+		<ul>
+			<li> <a id="about" href="about.html"> About </a></li>
+			<li> <a id="study_how" href="study_how.html"> Study </a></li>
+			<li> <a id="fun" href="fun.html"> Fun </a></li>
+			<li> <a id="board" href="board.html"> Board </a></li>
+			<li> <a id="mypage" href="mypage.html"> My Page </a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul>
+			<li><a href="board.html" id="offline"> 오프라인 스터디 모집 </a></li>
+			<li><a href="qna.html" id="qna"> 공지사항/Q&A </a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<h3> 질문하기 </h3>
+		<div> 제목 &nbsp; <input type="text" id="title" value="제목을 입력하세요."
+					size="50"></div> 
+		<div> <textarea id="content" rows="15"> </textarea> </div>
+		<button onclick="location.href='board.html'"> 뒤로 가기 </button>
+		<input type="submit" value="작성" onclick="store()">
+		
+		<script>
+			function store(){
+				if(!window.localStorage){
+					alert("로컬 스토리지를 지원하지 않습니다.");
+					return;
+				}
+				var today = new Date();
+				var now = today.getFullYear() + "." + (today.getMonth()+1) + "."
+							+ today.getDate() + " " + today.getHours() + ":"
+							+ today.getMinutes() + ":" + today.getSeconds();
+				
+				var title = document.getElementById("title").value;
+				var content = document.getElementById("content").value;
+				
+				var arr = [content, now];
+				localStorage.setItem(title, JSON.stringify(arr));
+				
+				
+				alert("게시글 작성이 완료되었습니다.");
+			 	location.href="qna.html";
+			 	
+			}
+		</script>
+	
+	</section>
+
+</body>
+</html>

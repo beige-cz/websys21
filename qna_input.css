@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+header {text-align:center;
+		margin:50px 30px 0;	
+		overflow:hidden;
+		height:90px;}
+header h1 {position:absolute; left:345px; right:345px;
+		   float:left;}
+header a {text-decoration:none;
+		  color:#000000;}
+header a:visited {color:#000000;} /*방문해도 색깔 안 변하게*/
+header>a {float:right;
+		  margin-right:10px;
+		  margin-top:40px;}
+
+
+nav ul {text-align:center;
+		margin-top:20px;
+		padding-left:120px;}
+nav ul li {display:inline-block;
+		   list-style:none;
+		   margin-right:100px;
+		   font-size:20px;}
+nav ul li a {text-decoration:none;
+			 color:#000000;}
+nav ul li a:visited{color:#000000;}
+nav ul li a:hover {font-weight:bold;}
+#board {font-weight:bold;}
+#offline {font-weight:bold;
+		text-decoration:underline;}
+			
+nav:nth-of-type(2) {margin:20px 30px 0;
+					border:1px solid green;
+					background-color:#ebf2ed;}
+nav:nth-of-type(2) ul li {font-size:16px;}
+
+
+section {margin:0 40px;
+		text-align:center;}
+section h3 {text-align:center;
+			margin-top:40px;
+			font-size:25px;}
+section div:nth-of-type(1) {width:100%;}
+section #title {height:30px;}
+section div:nth-of-type(2) {margin-top:10px;}
+section input[type=submit] {margin-top:10px;}
+section #content {width:800px;}
