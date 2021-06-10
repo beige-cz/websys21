@@ -25,9 +25,30 @@
 	</nav>
 	
 	<section>
+		<h3> 관심 사상/철학자 </h3>
 			
-		
+			<script>
+			if(window.localStorage){
+				document.write("<table>");
+			
+				
+				for(i=0;i<sessionStorage.length;i++){
+					var key = sessionStorage.key(i);
+					var val = sessionStorage.getItem(key);
+					
+					if(key.indexOf("save")>=0){
+						document.write("<tr> <td>");
+						document.write(val);
+						document.write("</td> </tr>");
+					}
+				}
+				document.write("</table>");
+			}
+			
+			</script>
+				
 	</section>
+	
 
 </body>
 

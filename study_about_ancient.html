@@ -60,10 +60,13 @@
 		<article>
 			<h2> 대표 철학자 </h2>
 			
+		
+			
 			<div id="socrates"> 
 				<img src="media/socrates.jpeg" width="220px" height="220px">
 				<div>
-					<h3> 소크라테스(Socrates) </h3> <br>
+					<h3> 소크라테스(Socrates) </h3>
+					<button type="button" class="button" id="heart1" onclick="save(this)"><img src="media/heart.jpeg" width="30px" height="30px""></button> <br>
 					"너 자신을 알라" <br>
 					BC 470 ~ BC 399 <br>
 					배우자 크산티페, 자녀 3명 <br>
@@ -83,7 +86,8 @@
 			<div id="plato">
 				<img src="media/plato.jpeg" width="180px" height="270px">
 				<div>
-					<h3> 플라톤(Plato) </h3> <br>
+					<h3> 플라톤(Plato) </h3>
+					<button type="button" class="button" id="heart2" onclick="save(this)"><img src="media/heart.jpeg" width="30px" height="30px"></button><br>
 					“교육이 한 인간을<br> 양성하기 시작할 때의 방향이 <br>
 					훗날 그의 삶을 결정할 것이다” <br>
 					BC 427 ~ BC 347 <br>
@@ -107,7 +111,8 @@
 			
 			<div id="sophist">
 				<div>
-					<h3> 소피스트(Sophist) </h3> <br>
+					<h3> 소피스트(Sophist) </h3>
+					<button type="button" class="button" id="heart3" onclick="save(this)"><img src="media/heart.jpeg" width="30px" height="30px"></button><br>
 					“인간은 만물의 척도이다” /프로타고라스 <br>
 					“아무 것도 없다. 만약 있다고 해도 알 수 없다. 
 					만약 있고 알 수 있다고 해도 다른 사람에게 분명하게 말할 수 없다” /고르기아스
@@ -126,6 +131,25 @@
 			</div>
 		</article>
 	</section>
+	
+	<script>
+		var num = 1;
+		
+		function save(obj){
+			if(!window.sessionStorage){
+				alert("세션 스토리지를 지원하지 않습니다.");
+				return;
+			}
+			
+			var parent = obj.parentElement;
+			var content = parent.innerHTML;
+			var title = "save" + num;
+			num++;
+			sessionStorage.setItem(title, content);
+			alert("관심 사상/철학자로 저장되었습니다!");
+		}
+	
+	</script>
 
 </body>
 
