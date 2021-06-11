@@ -60,8 +60,7 @@
 		<article>
 			<h2> 대표 철학자 </h2>
 			
-		
-			
+			<div> 
 			<div id="socrates"> 
 				<img src="media/socrates.jpeg" width="220px" height="220px">
 				<div>
@@ -82,7 +81,9 @@
 					무지에 대한 자각을 통한 참된 앎, 그리고 이러한 앎과 덕의 일치를 중시하였습니다. 
 				</div>
 			</div>
+			</div>
 		
+			<div>
 			<div id="plato">
 				<img src="media/plato.jpeg" width="180px" height="270px">
 				<div>
@@ -104,11 +105,11 @@
 					인간은 그 중 선(善)의 이데아를 인식하여 참된 진리의 세계에 도달할 수 있다고 합니다.<br>
 					그 외에도 플라톤은 철학자가 정치하는 철인 정치의 실현을 주장하였습니다.<br>
 					플라톤은 선의 이데아에 대한 지혜를 갖춘 철학자가 국가를 다스려야 한다고 보았습니다.<br>
-					
-					
 				</div>
 			</div>
+			</div>
 			
+			<div>
 			<div id="sophist">
 				<div>
 					<h3> 소피스트(Sophist) </h3>
@@ -126,9 +127,10 @@
 					또한 인간 사고가 불완전하다고 여겼으며 바람직한 삶의 태도나 윤리, 공동체의 사회규범 역시<br>
 					보편적이지 않고 상대적이라고 주장합니다.<br>
 					또한 설득의 도구로서의 언어를 중시하였습니다. 따라서 그들은 웅변술과 수사학에 능통하였습니다.
-					
 				</div>
 			</div>
+			</div>
+			
 		</article>
 	</section>
 	
@@ -142,7 +144,8 @@
 			}
 			
 			var parent = obj.parentElement;
-			var content = parent.innerHTML;
+			var p_parent = parent.parentElement.parentElement;
+			var content = p_parent.innerHTML;
 			var title = "save" + num;
 			num++;
 			sessionStorage.setItem(title, content);

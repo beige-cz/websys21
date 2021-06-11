@@ -47,10 +47,12 @@
 	<section>
 		<h1> 중세철학 </h1>
 		
+		<div> 
 		<article id="patristic">
 			<div class="title">
 				<h2> 교부 철학(Patristic Philosophy)</h2>
-				<p> 2 ~ 8세기 </p>	
+				<p> 2 ~ 8세기 </p>
+				<button type="button" class="button" id="heart1" onclick="save(this)"><img src="media/heart.jpeg" width="30px" height="30px""></button>
 			</div>
 			<div class="explain">
 				고대 그리스도교의 교부들의 철학 사상입니다.<br>
@@ -77,11 +79,14 @@
 				교회가 이 은총을 매개한다고 주장하였습니다.
 			</div>
 		</article>
+		</div>
 		
+		<div>
 		<article id="schola">
 			<div class="title">
 				<h2> 스콜라 철학(Patristic Philosophy)</h2>
-				<p> 9 ~ 16세기 </p>	
+				<p> 9 ~ 16세기 </p>
+				<button type="button" class="button" id="heart2" onclick="save(this)"><img src="media/heart.jpeg" width="30px" height="30px""></button>
 			</div>
 			
 			<div class="explain">
@@ -106,6 +111,7 @@
 				그는 중세 시대 몰락할 위기에 처한 기독교를 철학적으로 완성시켰습니다.
 			</div>
 		</article>
+		</div>
 		
 		<p> <iframe width="560" height="315"
 			src="https://www.youtube.com/embed/C3EuwDOlBEU"
@@ -113,6 +119,27 @@
 			</iframe> </p>
 			
 	</section>
+
+	<script>
+		var num = 4;
+		
+		function save(obj){
+			if(!window.sessionStorage){
+				alert("세션 스토리지를 지원하지 않습니다.");
+				return;
+			}
+			
+			var parent = obj.parentElement;
+			var p_parent = parent.parentElement.parentElement;
+			var content = p_parent.innerHTML;
+			var title = "save" + num;
+			num++;
+			sessionStorage.setItem(title, content);
+			alert("관심 사상/철학자로 저장되었습니다!");
+		}
+	
+	</script>
+
 
 </body>
 

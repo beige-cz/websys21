@@ -37,7 +37,7 @@ section:nth-of-type(1) {margin:20px 30px 0;
 		 				background-color:#ebf2ed;}		 
 section nav ul li {font-size:16px;}					
 section nav ul li #aboutStudy {text-decoration:underline;}
-section>div {border:1px dotted black;
+section:nth-of-type(1)>div {border:1px dotted black;
 			 text-align:center;
 			 height:250px;
 			 margin:0 150px;}
@@ -57,15 +57,31 @@ section h1 {text-align:center;
 			font-size:27px;
 			margin-top:10px;}
 			
-section article {border:1px solid grey;
+section article {border:1px dotted grey;
 				margin:40px 50px;}
 section article h2{font-size:21px;
 		   font-weight:630;
 		   display:inline;}
 section article p {font-size:17px;
 		   font-weight:500;}
+	
 				
 
+button{width: 30px;
+        height: 30px;
+        cursor: pointer;
+        border:none;
+        background-color:black;
+        }	
+#heart1{margin-left:160px;
+		float:left;}
+#heart2{margin-left:160px;
+		float:left;}
+#heart1 img {margin-left:15px;
+			margin-top:-171px;}
+#heart2 img {margin-left:15px;
+			margin-top:-96px;}
+	
 								
 section #patristic {position:relative; height:600px;
 					overflow:scroll;}
