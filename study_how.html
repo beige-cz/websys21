@@ -40,22 +40,26 @@
 			
 			<div id="grid">
 				<div class="row">
-					<div class="column" style="background-color:#aaa;">
+					<div class="column" style="background-color:#aaa;"
+					onmouseover="over(this)" onmouseout="this.style.backgroundColor='#aaa'">
 						<h2>1</h2>
 						<p>각 사상별 주요 내용 중심으로 대표 철학자들 알아보기</p>
 					</div>
-					<div class="column" style="background-color:#bbb;">
+					<div class="column" style="background-color:#bbb;"
+					onmouseover="over(this)" onmouseout="this.style.backgroundColor='#bbb'">
 					    <h2>2</h2>
 					    <p>관심 있는 철학자 중심으로 그의 사상과 저서 공부하기</p>
 					</div>
 				</div>
 	
 				<div class="row">
-					<div class="column" style="background-color:#ccc;">
+					<div class="column" style="background-color:#ccc;"
+					onmouseover="over(this)" onmouseout="this.style.backgroundColor='#ccc'">
 				    	<h2>3</h2>
 				    	<p>요약 영상 먼저! 쉽게 개념 새기고 철학에 입문하기</p>
 					</div>
-				 	<div class="column" style="background-color:#ddd;">
+				 	<div class="column" style="background-color:#ddd;"
+				 	onmouseover="over(this)" onmouseout="this.style.backgroundColor='#ddd'">
 				    	<h2>4</h2>
 				    	<p><a href="board.html">오프라인으로 다른 사람과 만나 이야기하며 공부하기</a></p>
 					</div>
@@ -64,6 +68,11 @@
 				
 		</article>
 	</section>	
+
+	<script>
+		function over(obj){obj.style.backgroundColor="#ebf2ed";}
+	</script>
+
 
 </body>
 
