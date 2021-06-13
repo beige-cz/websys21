@@ -37,7 +37,7 @@ section:nth-of-type(1) {margin:20px 30px 0;
 		 				background-color:#ebf2ed;}		 
 section nav ul li {font-size:16px;}					
 section nav ul li #aboutStudy {text-decoration:underline;}
-section>div {border:1px dotted black;
+section:nth-of-type(1)>div {border:1px dotted black;
 			 text-align:center;
 			 height:250px;
 			 margin:0 150px;
@@ -58,14 +58,31 @@ section h1 {text-align:center;
 section h1 {text-align:center;
 			font-size:27px;
 			margin-top:10px;}
-section article:nth-of-type(1) div {background-color:#F0F0F0;
+section article:nth-of-type(1) div:nth-of-type(1) {background-color:#F0F0F0;
 					 				margin:40px 80px 0; 
 					 				font-size:16px;
 					 				text-align:center; line-height:40px;
 					 				border: 0px;}
-section article:nth-of-type(1) div a {color:black;}
+section article:nth-of-type(1) div:nth-of-type(1) a {color:black;}
 						
-						
+
+button{width: 30px;
+        height: 30px;
+        cursor: pointer;
+        border:none;
+        background-color:black;
+        margin-left:160px;
+		float:left;}
+
+
+#heart1 img {margin-left:15px;
+			margin-top:-129px;}
+#heart2 img {margin-left:15px;
+			margin-top:-129px;}				
+#heart3 img {margin-left:15px;
+			margin-top:-89px;}					
+#heart4 img {margin-left:15px;
+			margin-top:-129px;}							
 						
 
 section #empiricism {position:relative; height:855px;
@@ -73,13 +90,13 @@ section #empiricism {position:relative; height:855px;
 					overflow:scroll;
 					width:92%;
 					margin:40px auto 0;}
-section .title {background-color:#e5e5e5;
+section #empiricism .title {background-color:#e5e5e5;
 				width:380px; height:70px;
 				text-align:center;
 				margin-left:10px;
 				margin-top:15px;
 				border:0px;}		
-section .explain {line-height:38px;
+section #empiricism .explain {line-height:38px;
 				  position:absolute;
 				  left:405px; top:10px;
 				  width:850px;
@@ -101,13 +118,13 @@ section #rationalism {position:relative; height:940px;
 					overflow:scroll;
 					width:92%;
 					margin:40px auto 0;}
-section .title {background-color:#e5e5e5;
+section #rationalism .title {background-color:#e5e5e5;
 				width:380px; height:70px;
 				text-align:center;
 				margin-left:10px;
 				margin-top:15px;
 				border:0px;}		
-section .explain {line-height:38px;
+section #rationalism .explain {line-height:38px;
 				  position:absolute;
 				  left:405px; top:10px;
 				  width:850px;}		
@@ -120,25 +137,7 @@ section #rationalism img {position:absolute;
 					    top:265px; left:155px;}
 section #rationalism #decartes {position:absolute;
 						        top:255px; left:405px;
-						        line-height:31px;}
-		
-		
-button{width: 30px;
-        height: 30px;
-        cursor: pointer;
-        border:none;
-        background-color:black;
-        margin-left:160px;
-		float:left;}	
-
-#heart1 img {margin-left:15px;
-			margin-top:-161px;}
-#heart2 img {margin-left:15px;
-			margin-top:-161px;}				
-#heart3 img {margin-left:15px;
-			margin-top:-132px;}					
-#heart4 img {margin-left:15px;
-			margin-top:-161px;}					        
+						        line-height:31px;}				        
 					
 					
 section p {text-align:center;}						        
@@ -152,9 +151,8 @@ section #kritik .title {background-color:#e5e5e5;
 				width:380px; height:100px;
 				text-align:center;
 				margin-left:10px;
-				margin-top:15px;
-				border:0px;}		
-section .explain {line-height:38px;
+				margin-top:15px;}	
+section #kritik .explain {line-height:38px;
 				  position:absolute;
 				  left:405px; top:10px;
 				  width:850px;}		
@@ -178,13 +176,12 @@ section #utilitarianism {position:relative; height:1045px;
 					width:92%;
 					margin:40px auto 0;
 					border:1px dotted grey;}
-section .title {background-color:#e5e5e5;
+section #utilitarianism .title {background-color:#e5e5e5;
 				width:380px; height:70px;
 				text-align:center;
 				margin-left:10px;
-				margin-top:15px;
-				border:0px;}		
-section .explain {line-height:38px;
+				margin-top:15px;}					
+section #utilitarianism .explain {line-height:38px;
 				  position:absolute;
 				  left:405px; top:10px;
 				  width:850px;}		
@@ -198,5 +195,5 @@ section #utilitarianism img {position:absolute;
 section #utilitarianism #bentham {position:absolute;
 						        top:255px; left:405px;
 						        line-height:31px;}
-section #utilitarianism>p {position:absolute;
+section #utilitarianism .video{position:absolute;
 							top:700px; left:405px;}

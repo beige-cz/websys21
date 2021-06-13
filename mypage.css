@@ -152,3 +152,123 @@ socrates img {float:left;
 						  line-height:31px;}
 #schola button {width:45px; height:40px;}
 #schola button img {margin-left:31px; margin-top:-81px;}
+
+
+
+#empiricism {position:relative; height:855px;
+					border:1px dotted grey;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;}
+#empiricism .title {background-color:#e5e5e5;
+				width:380px; height:70px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;
+				border:0px;}		
+#empiricism .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;
+				  border:0px;}		
+#empiricism div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+#empiricism img {position:absolute;
+					    top:265px; left:155px;}
+#empiricism #bacon {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+#empiricism button {width:45px; height:40px;}
+#empiricism button img {margin-left:31px; margin-top:-155px;}
+
+
+#rationalism {position:relative; height:940px;
+					border:1px dotted grey;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;}
+#rationalism .title {background-color:#e5e5e5;
+				width:380px; height:70px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;
+				border:0px;}		
+#rationalism .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;}		
+#rationalism div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+#rationalism img {position:absolute;
+					    top:265px; left:155px;}
+#rationalism #decartes {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+#rationalism button {width:45px; height:40px;}
+#rationalism button img {margin-left:31px; margin-top:-155px;}
+						        
+
+#kritik {position:relative; height:915px;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;
+					border:1px dotted grey;}
+#kritik .title {background-color:#e5e5e5;
+				width:380px; height:100px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;}	
+#kritik .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;}		
+#kritik div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+#kritik img {position:absolute;
+					    top:265px; left:155px;}
+#kritik #kant {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+#kritik>p {position:absolute;
+					top:570px; left:405px;}
+#kritik button {width:45px; height:40px;}
+#kritik button img {margin-left:31px; margin-top:-127px;}
+
+
+#utilitarianism {position:relative; height:1045px;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;
+					border:1px dotted grey;}
+#utilitarianism .title {background-color:#e5e5e5;
+				width:380px; height:70px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;}					
+#utilitarianism .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;}		
+#utilitarianism div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+#utilitarianism img {position:absolute;
+					    top:265px; left:155px;}
+#utilitarianism #bentham {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+#utilitarianism .video{position:absolute;
+							top:700px; left:405px;}
+#utilitarianism button {width:45px; height:40px;}
+#utilitarianism button img {margin-left:31px; margin-top:-155px;}
