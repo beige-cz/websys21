@@ -54,4 +54,132 @@ section:nth-of-type(2) {margin:20px 30px 0;
 section h1 {text-align:center;
 			font-size:27px;
 			margin-top:10px;}
+			
+section h1 {text-align:center;
+			font-size:27px;
+			margin-top:10px;}
+section article:nth-of-type(1) div {background-color:#F0F0F0;
+					 				margin:40px 80px 0; 
+					 				font-size:16px;
+					 				text-align:center; line-height:40px;
+					 				border: 0px;}
+section article:nth-of-type(1) div a {color:black;}
 						
+						
+						
+
+section #empiricism {position:relative; height:855px;
+					border:1px dotted grey;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;}
+section .title {background-color:#e5e5e5;
+				width:380px; height:70px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;
+				border:0px;}		
+section .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;
+				  border:0px;}		
+section #empiricism div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+section #empiricism img {position:absolute;
+					    top:265px; left:155px;}
+section #empiricism #bacon {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+						        
+						        
+section #rationalism {position:relative; height:940px;
+					border:1px dotted grey;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;}
+section .title {background-color:#e5e5e5;
+				width:380px; height:70px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;
+				border:0px;}		
+section .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;}		
+section #rationalism div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+section #rationalism img {position:absolute;
+					    top:265px; left:155px;}
+section #rationalism #decartes {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+						        
+					
+					
+section p {text-align:center;}						        
+						        
+section #kritik {position:relative; height:915px;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;
+					border:1px dotted grey;}
+section #kritik .title {background-color:#e5e5e5;
+				width:380px; height:100px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;
+				border:0px;}		
+section .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;}		
+section #kritik div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+section #kritik img {position:absolute;
+					    top:265px; left:155px;}
+section #kritik #kant {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+section #kritik p {position:absolute;
+					top:570px; left:405px;}
+						        
+						        
+						        
+section #utilitarianism {position:relative; height:1045px;
+					overflow:scroll;
+					width:92%;
+					margin:40px auto 0;
+					border:1px dotted grey;}
+section .title {background-color:#e5e5e5;
+				width:380px; height:70px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;
+				border:0px;}		
+section .explain {line-height:38px;
+				  position:absolute;
+				  left:405px; top:10px;
+				  width:850px;}		
+section #utilitarianism div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:235px; left:300px;}															
+section #utilitarianism img {position:absolute;
+					    top:265px; left:155px;}
+section #utilitarianism #bentham {position:absolute;
+						        top:255px; left:405px;
+						        line-height:31px;}
+section #utilitarianism p {position:absolute;
+							top:700px; left:405px;}
