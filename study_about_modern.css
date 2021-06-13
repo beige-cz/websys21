@@ -121,7 +121,24 @@ section #rationalism img {position:absolute;
 section #rationalism #decartes {position:absolute;
 						        top:255px; left:405px;
 						        line-height:31px;}
-						        
+		
+		
+button{width: 30px;
+        height: 30px;
+        cursor: pointer;
+        border:none;
+        background-color:black;
+        margin-left:160px;
+		float:left;}	
+
+#heart1 img {margin-left:15px;
+			margin-top:-161px;}
+#heart2 img {margin-left:15px;
+			margin-top:-161px;}				
+#heart3 img {margin-left:15px;
+			margin-top:-132px;}					
+#heart4 img {margin-left:15px;
+			margin-top:-161px;}					        
 					
 					
 section p {text-align:center;}						        
@@ -151,7 +168,7 @@ section #kritik img {position:absolute;
 section #kritik #kant {position:absolute;
 						        top:255px; left:405px;
 						        line-height:31px;}
-section #kritik p {position:absolute;
+section #kritik>p {position:absolute;
 					top:570px; left:405px;}
 						        
 						        
@@ -181,5 +198,5 @@ section #utilitarianism img {position:absolute;
 section #utilitarianism #bentham {position:absolute;
 						        top:255px; left:405px;
 						        line-height:31px;}
-section #utilitarianism p {position:absolute;
+section #utilitarianism>p {position:absolute;
 							top:700px; left:405px;}
