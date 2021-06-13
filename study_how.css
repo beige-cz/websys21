@@ -37,18 +37,38 @@ nav:nth-of-type(2) {margin:20px 30px 0;
 		 background-color:#ebf2ed;}
 nav:nth-of-type(2) ul li {font-size:16px;}
 
-section article {margin-top:50px;
+section #explain{margin-top:50px;
 					height:130px;
 					margin:30px 30px 0;
 					border:1px solid grey;
-					background-color:#F0F0F0;}			
-section article div {font-size:18px;
+					background-color:#F0F0F0;			
+					font-size:18px;
 					font-weight:420;
-					line-height:40px;
-					width:800px;
-					text-align:center;
-					margin:26px auto;
-					}			
-			
+					line-height:63px;
+					text-align:center;}			
+section #explain a {color:black;}
+
+	
+/*https://www.w3schools.com/howto/howto_js_list_grid_view.asp*/					
+/* Create two equal columns that floats next to each other */
+
+#grid {text-align:center;
+		margin:20px 30px;}
+#grid p {font-size:17px;
+		font-weight:480;}
+#grid p a{color:black;}
+
+.column {
+  float: left;
+  width: 48.5%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 			
 			

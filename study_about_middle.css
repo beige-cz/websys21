@@ -40,7 +40,8 @@ section nav ul li #aboutStudy {text-decoration:underline;}
 section:nth-of-type(1)>div {border:1px dotted black;
 			 text-align:center;
 			 height:250px;
-			 margin:0 150px;}
+			 margin:0 150px;
+			 line-height:32px;}
 section nav:nth-of-type(2) ul {height:26px;
 							   position:relative; bottom:4px;
 							   background-color:white;}
