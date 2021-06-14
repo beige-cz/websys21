@@ -94,7 +94,8 @@ section .title {background-color:#e5e5e5;
 section .explain {line-height:38px;
 				  position:absolute;
 				  left:405px; top:10px;
-				  width:850px;}		
+				  width:850px;}	
+				  	
 section #patristic div:nth-of-type(3) {text-align:center;
 									font-size:19px;
 									font-weight:580;

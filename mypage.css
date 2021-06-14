@@ -158,7 +158,7 @@ socrates img {float:left;
 #empiricism {position:relative; height:855px;
 					border:1px dotted grey;
 					overflow:scroll;
-					width:92%;
+					width:98%;
 					margin:40px auto 0;}
 #empiricism .title {background-color:#e5e5e5;
 				width:380px; height:70px;
@@ -177,18 +177,18 @@ socrates img {float:left;
 									position:absolute;
 									top:235px; left:300px;}															
 #empiricism img {position:absolute;
-					    top:265px; left:155px;}
+					    top:265px; left:105px;}
 #empiricism #bacon {position:absolute;
 						        top:255px; left:405px;
 						        line-height:31px;}
 #empiricism button {width:45px; height:40px;}
-#empiricism button img {margin-left:31px; margin-top:-155px;}
+#empiricism button img {margin-left:81px; margin-top:-155px;}
 
 
 #rationalism {position:relative; height:940px;
 					border:1px dotted grey;
 					overflow:scroll;
-					width:92%;
+					width:98%;
 					margin:40px auto 0;}
 #rationalism .title {background-color:#e5e5e5;
 				width:380px; height:70px;
@@ -216,7 +216,7 @@ socrates img {float:left;
 
 #kritik {position:relative; height:915px;
 					overflow:scroll;
-					width:92%;
+					width:98%;
 					margin:40px auto 0;
 					border:1px dotted grey;}
 #kritik .title {background-color:#e5e5e5;
@@ -246,7 +246,7 @@ socrates img {float:left;
 
 #utilitarianism {position:relative; height:1045px;
 					overflow:scroll;
-					width:92%;
+					width:98%;
 					margin:40px auto 0;
 					border:1px dotted grey;}
 #utilitarianism .title {background-color:#e5e5e5;
@@ -272,3 +272,72 @@ socrates img {float:left;
 							top:700px; left:405px;}
 #utilitarianism button {width:45px; height:40px;}
 #utilitarianism button img {margin-left:31px; margin-top:-155px;}
+
+
+#godyexist {border:1px dotted grey;
+					position:relative; overflow:scroll;
+					width:98%;
+					margin:40px auto 0;
+					height:650px;}
+#godyexist .explain {line-height:33px;
+				  			position:absolute;
+				  			left:410px; top:20px;
+				  			width:850px;}	
+#godyexist div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:180px; left:300px;}
+#godyexist img {position:absolute;
+						top:210px; left:160px;}
+#godyexist #kierkegaard {position:absolute;
+								top:185px; left:410px;
+								line-height:31px;}
+#godyexist button {width:45px; height:40px;}
+#godyexist button img {margin-left:24px; margin-top:-135px;}
+
+
+#godnexist {border:1px dotted grey;
+					position:relative; overflow:scroll;
+					width:98%;
+					margin:40px auto 0;
+					height:645px;}
+#godnexist .explain {line-height:33px;
+				  			position:absolute;
+				  			left:410px; top:20px;
+				  			width:850px;}	
+#godnexist div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:240px; left:300px;}
+#godnexist img {position:absolute;
+						top:270px; left:160px;}
+#godnexist #sartre {position:absolute;
+								top:250px; left:410px;
+								line-height:31px;}
+#godnexist button {width:45px; height:40px;}
+#godnexist button img {margin-left:25px; margin-top:-197px;}
+
+
+#pragmatism {border:1px dotted grey;
+					position:relative; overflow:scroll;
+					width:98%;
+					margin:40px auto 0;
+					height:690px;}
+#pragmatism .explain {line-height:33px;
+				  			position:absolute;
+				  			left:410px; top:20px;
+				  			width:850px;}	
+#pragmatism  div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:280px; left:300px;}
+#pragmatism  img {position:absolute;
+						top:310px; left:160px;}
+#pragmatism  #dewey {position:absolute;
+								top:290px; left:410px;
+								line-height:31px;}	
+#pragmatism button {width:45px; height:40px;}
+#pragmatism button img {margin-left:25px; margin-top:-236px;}															

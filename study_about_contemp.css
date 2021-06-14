@@ -36,7 +36,7 @@ section:nth-of-type(1) {margin:20px 30px 0;
 		 				background-color:#ebf2ed;}		 
 section nav ul li {font-size:16px;}					
 section nav ul li #aboutStudy {text-decoration:underline;}
-section>div {border:1px dotted black;
+section:nth-of-type(1)>div {border:1px dotted black;
 			 text-align:center;
 			 height:250px;
 			 margin:0 150px;
@@ -47,15 +47,113 @@ section nav:nth-of-type(2) ul {height:26px;
 section nav:nth-of-type(2) ul li {margin-top:3px;}
 #contemp {font-weight:bold;}
 
+
+
+
 section:nth-of-type(2) {margin:20px 30px 0;
 						border:1px solid grey;
-						padding:20px 0;}
-section h1 {text-align:center;
+						padding:20px 0;
+						height:3080px;}
+section:nth-of-type(2) h1 {text-align:center;
 			font-size:27px;
 			margin-top:10px;}
+
+section:nth-of-type(2)>div:nth-of-type(1) {background-color:#F0F0F0;
+					 		margin:40px 80px 0;
+					 		font-size:16px;
+					 		text-align:center; line-height:40px;
+					 		height:160px;}
+section:nth-of-type(2) div:nth-of-type(1) a {color:black;}
+
+
+button{width: 30px;
+        height: 30px;
+        cursor: pointer;
+        border:none;
+        background-color:black;
+        margin-left:160px;
+		float:left;}
+
+#heart1 img {margin-top:-141px;
+			margin-left:10px;}
+#heart2 img {margin-top:-201px;
+			margin-left:10px;}				
+#heart3 img {margin-top:-241px;
+			margin-left:10px;}					
+
+
+
+section #exist {text-align:center;
+				border:1px dotted grey;
+				margin:40px 50px;
+				height:680px;}
+section #exist div {background-color:white;
+					line-height:30px;}
+section #exist p {margin-top:30px;}		
 						
+
+	
+section .title {background-color:#e5e5e5;
+				width:380px; height:45px;
+				text-align:center;
+				margin-left:10px;
+				margin-top:15px;}		
+					
+section #godyexist {border:1px dotted grey;
+					position:relative; overflow:scroll;
+					margin:40px 50px;
+					height:650px;}
+section #godyexist .explain {line-height:33px;
+				  			position:absolute;
+				  			left:410px; top:20px;
+				  			width:850px;}	
+section #godyexist div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:180px; left:300px;}
+section #godyexist img {position:absolute;
+						top:210px; left:160px;}
+section #godyexist #kierkegaard {position:absolute;
+								top:185px; left:410px;
+								line-height:31px;}
+
+
+section #godnexist {border:1px dotted grey;
+					position:relative; overflow:scroll;
+					margin:40px 50px;
+					height:645px;}
+section #godnexist .explain {line-height:33px;
+				  			position:absolute;
+				  			left:410px; top:20px;
+				  			width:850px;}	
+section #godnexist div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:240px; left:300px;}
+section #godnexist img {position:absolute;
+						top:270px; left:160px;}
+section #godnexist #sartre {position:absolute;
+								top:250px; left:410px;
+								line-height:31px;}
+								
 						
-						
-						
-						
-						
+section #pragmatism {border:1px dotted grey;
+					position:relative; overflow:scroll;
+					margin:40px 50px;
+					height:690px;}
+section #pragmatism .explain {line-height:33px;
+				  			position:absolute;
+				  			left:410px; top:20px;
+				  			width:850px;}	
+section #pragmatism  div:nth-of-type(3) {text-align:center;
+									font-size:19px;
+									font-weight:580;
+									position:absolute;
+									top:280px; left:300px;}
+section #pragmatism  img {position:absolute;
+						top:310px; left:160px;}
+section #pragmatism  #dewey {position:absolute;
+								top:290px; left:410px;
+								line-height:31px;}
