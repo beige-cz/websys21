@@ -30,5 +30,17 @@ nav ul li a:hover {font-weight:bold;}
 #fun {font-weight:bold;}
 			
 			
-			
+section{text-align:center;}
+section h3 {margin-top:40px;
+			font-size:25px;}
+section table {border:1px solid green;
+				background-color:#ebf2ed;
+				margin:0 auto;
+				height:400px;
+				width:1100px;}
+section div {display:inline-block;}			
+section input[type=submit] {width:70px;
+							height:35px;
+							font-size:15px;
+							margin-top:10px;}
 			
