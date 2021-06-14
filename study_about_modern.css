@@ -74,9 +74,9 @@ button{width: 30px;
         margin-left:160px;
 		float:left;}
 
-
-#heart1 img {margin-left:15px;
-			margin-top:-129px;}
+#heart1 {margin-top:20px;}
+#heart1 img {margin-left:65px;
+			margin-top:-165px;}
 #heart2 img {margin-left:15px;
 			margin-top:-129px;}				
 #heart3 img {margin-left:15px;
@@ -95,7 +95,9 @@ section #empiricism .title {background-color:#e5e5e5;
 				text-align:center;
 				margin-left:10px;
 				margin-top:15px;
-				border:0px;}		
+				border:0px;}
+section #empiricism .title p {position:absolute;
+							top:40px; left:155px;}	
 section #empiricism .explain {line-height:38px;
 				  position:absolute;
 				  left:405px; top:10px;
@@ -107,7 +109,7 @@ section #empiricism div:nth-of-type(3) {text-align:center;
 									position:absolute;
 									top:235px; left:300px;}															
 section #empiricism img {position:absolute;
-					    top:265px; left:155px;}
+					    top:265px; left:105px;}
 section #empiricism #bacon {position:absolute;
 						        top:255px; left:405px;
 						        line-height:31px;}
