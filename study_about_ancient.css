@@ -37,7 +37,7 @@ section:nth-of-type(1) {margin:20px 30px 0;
 		 				background-color:#ebf2ed;}		 
 section nav ul li {font-size:16px;}					
 section nav ul li #aboutStudy {text-decoration:underline;}
-section>div {border:1px dotted black;
+section:nth-of-type(1)>div {border:1px dotted black;
 			 text-align:center;
 			 height:250px;
 			 margin:0 150px;
@@ -70,6 +70,7 @@ button{width: 30px;
 section:nth-of-type(2) {margin:20px 30px 0;
 						border:1px solid grey;
 						padding:20px 0;}
+#map {width:80%; height:250px; margin:0 auto;}
 section h1 {text-align:center;
 			font-size:27px;
 			margin-top:10px;}

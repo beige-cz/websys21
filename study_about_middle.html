@@ -52,6 +52,37 @@
 	<section>
 		<h1> 중세철학 </h1>
 		
+		<div id="map"></div>	
+		<script>
+	    // 구글 지도를 초기화 하고 마커를 추가한다.
+	    function initMap() {
+	
+	            const map = new google.maps.Map(document.getElementById("map"), {
+	                zoom: 4,
+	                center: { lat: 41.8646614, lng: 11.7815385 },
+	            });
+	
+	            for (var i = 0; i < locations.length; i++) {
+	                var marker = new google.maps.Marker({
+	                    map: map,
+	                    label: locations[i].place,
+	                    position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+	                });
+	            }
+	        }
+	        const locations = [
+	            { place:"아우구스티누스/아퀴나스", lat: 41.8646614, lng: 11.7815385 },
+	        ];
+			</script>
+			<!--Load the API from the specified URL
+			* The async attribute allows the browser to render the page while the API loads
+			* The key parameter will contain your own API key (which is not needed for this tutorial)
+			* The callback parameter executes the initMap() function
+			-->
+			<script async defer
+			        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdHwcfZb3P8AUnhY8bUD_FswSBzz8Q4Ek&callback=initMap">
+			</script>
+		
 		<div> 
 		<article id="patristic">
 			<div class="title">

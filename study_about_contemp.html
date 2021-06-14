@@ -58,6 +58,40 @@
 			<strong><a href="#pragmatism">실용주의</a></strong>에 대해 소개하고 있습니다.<br>
 			</div>
 		
+			<div id="map"></div>	
+		<script>
+	    // 구글 지도를 초기화 하고 마커를 추가한다.
+	    function initMap() {
+	
+	            const map = new google.maps.Map(document.getElementById("map"), {
+	                zoom: 2,
+	                center: { lat: 49.6979985, lng: -39.3603756 },
+	            });
+	
+	            for (var i = 0; i < locations.length; i++) {
+	                var marker = new google.maps.Marker({
+	                    map: map,
+	                    label: locations[i].place,
+	                    position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+	                });
+	            }
+	        }
+	        const locations = [
+	            { place:"키에르케고르", lat: 55.2602757, lng: 9.3934602 },
+	            { place:"사르트르", lat: 46.578293, lng: 1.1994833 },
+	            { place:"듀이", lat: 31.8705523, lng: -122.546418 },
+	        ];
+			</script>
+			<!--Load the API from the specified URL
+			* The async attribute allows the browser to render the page while the API loads
+			* The key parameter will contain your own API key (which is not needed for this tutorial)
+			* The callback parameter executes the initMap() function
+			-->
+			<script async defer
+			        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdHwcfZb3P8AUnhY8bUD_FswSBzz8Q4Ek&callback=initMap">
+			</script>
+			
+		
 		
 		<article id="exist">
 			<h2>실존주의</h2>

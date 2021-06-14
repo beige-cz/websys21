@@ -56,31 +56,31 @@
 		<input type="submit" value="작성" onclick="store()">
 		
 		<script>
-			function store(){
-				if(!window.localStorage){
-					alert("로컬 스토리지를 지원하지 않습니다.");
-					return;
-				}
-				var today = new Date();
-				var now = today.getFullYear() + "." + (today.getMonth()+1) + "."
-							+ today.getDate() + " " + today.getHours() + ":"
-							+ today.getMinutes() + ":" + today.getSeconds();
-				
-				var title = document.getElementById("title").value;
-				var content = document.getElementById("content").value;
-				var day = document.getElementById("day");
-				day = day.options[day.selectedIndex].text;
-				var time = document.getElementById("time");
-				time = time.options[time.selectedIndex].text;
-				
-				var arr = [content, day, time, now];
-				localStorage.setItem(title, JSON.stringify(arr));
-				
-				
-				alert("게시글 작성이 완료되었습니다.");
-			 	location.href="board.html";
-			 	
+		function store(){
+			if(!window.localStorage){
+				alert("로컬 스토리지를 지원하지 않습니다.");
+				return;
 			}
+			var today = new Date();
+			var now = today.getFullYear() + "." + (today.getMonth()+1) + "."
+						+ today.getDate() + " " + today.getHours() + ":"
+						+ today.getMinutes() + ":" + today.getSeconds();
+			
+			var title = document.getElementById("title").value;
+			var content = document.getElementById("content").value;
+			var day = document.getElementById("day");
+			day = day.options[day.selectedIndex].text;
+			var time = document.getElementById("time");
+			time = time.options[time.selectedIndex].text;
+			
+			var arr = [content, day, time, now];
+			localStorage.setItem(title, JSON.stringify(arr));
+			
+			
+			alert("게시글 작성이 완료되었습니다.");
+		 	location.href="board.html";
+			 	
+		}
 		</script>
 	
 	</section>
