@@ -41,7 +41,8 @@ section:nth-of-type(1)>div {border:1px dotted black;
 			 text-align:center;
 			 height:250px;
 			 margin:0 150px;
-			 line-height:32px;}
+			 line-height:32px;
+			 overflow:auto;}
 section nav:nth-of-type(2) ul {height:26px;
 							   position:relative; bottom:4px;
 							   background-color:white;}
@@ -88,7 +89,7 @@ button{width: 30px;
 
 section #empiricism {position:relative; height:855px;
 					border:1px dotted grey;
-					overflow:scroll;
+					overflow:auto;
 					width:92%;
 					margin:40px auto 0;}
 section #empiricism .title {background-color:#e5e5e5;
@@ -118,7 +119,7 @@ section #empiricism #bacon {position:absolute;
 						        
 section #rationalism {position:relative; height:940px;
 					border:1px dotted grey;
-					overflow:scroll;
+					overflow:auto;
 					width:92%;
 					margin:40px auto 0;}
 section #rationalism .title {background-color:#e5e5e5;
@@ -146,7 +147,7 @@ section #rationalism #decartes {position:absolute;
 section p {text-align:center;}						        
 						        
 section #kritik {position:relative; height:915px;
-					overflow:scroll;
+					overflow:auto;
 					width:92%;
 					margin:40px auto 0;
 					border:1px dotted grey;}
@@ -175,7 +176,7 @@ section #kritik>p {position:absolute;
 						        
 						        
 section #utilitarianism {position:relative; height:1045px;
-					overflow:scroll;
+					overflow:auto;
 					width:92%;
 					margin:40px auto 0;
 					border:1px dotted grey;}
