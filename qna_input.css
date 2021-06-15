@@ -28,7 +28,7 @@ nav ul li a {text-decoration:none;
 nav ul li a:visited{color:#000000;}
 nav ul li a:hover {font-weight:bold;}
 #board {font-weight:bold;}
-#offline {font-weight:bold;
+#qna {font-weight:bold;
 		text-decoration:underline;}
 			
 nav:nth-of-type(2) {margin:20px 30px 0;
